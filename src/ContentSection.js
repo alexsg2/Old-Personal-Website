@@ -47,7 +47,7 @@ const WelcomeSection = () => (
                                 Welcome to My <span className="title-highlight">Creative</span> Portfolio
                             </p>
                             <p className="welcome-description">
-                                Welcome to my personal website showcasing my projects as a Computer Science student at{' '}
+                                My personal website showcasing my projects as a Computer Science student at{' '}
                                 <span className="institution-highlight">Virginia Tech</span>!
                             </p>
                             <div className="welcome-buttons">
@@ -92,7 +92,7 @@ const AboutSection = () => (
                             <h1>About Me</h1>
                             <p>Hello, I'm Alexander Georgiev.</p>
                             <p>
-                                Welcome to my website! Here, you'll find an assortment of my personal and group projects. I've
+                                Thanks for visting my website! Here, you'll find an assortment of my personal and group projects. I've
                                 dabbled in different coding languages like React.js and Java to bring these projects to life. Feel
                                 free to check them out! I've learned a ton from these experiences, and they've been a major part
                                 of my learning journey.
@@ -202,76 +202,106 @@ const SkillSection = () => (
                     <h1>Skills &amp; Experiences</h1>
                 </Row>
                 <Row>
-                    <Col sm={3}>
+                    <Col>
                         <div className="skills-sidebar">
                             <div className="sidebar-item">
-                                <h3>Front End:</h3>
-                            </div>
-                            <div className="sidebar-item">
-                                <h3>Back End:</h3>
-                            </div>
-                            <div className="sidebar-item">
-                                <h3>Developer Tools:</h3>
+                                <fieldset>
+                                    <legend>Front End</legend>
+                                    <div className="d-flex flex-column align-items-center">
+                                        <div className="d-flex">
+                                            <div>
+                                                <img src={skill1Image} alt="Skill 1" className="rounded-photo" />
+                                                <p>React</p>
+                                            </div>
+                                            <div>
+                                                <img src={skill2Image} alt="Skill 2" className="rounded-photo" />
+                                                <p>Javascript</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="d-flex flex-column align-items-center">
+                                        <div className="d-flex">
+                                            <div>
+                                                <img src={skill3Image} alt="Skill 3" className="rounded-photo" />
+                                                <p>CSS</p>
+                                            </div>
+                                            <div>
+                                                <img src={skill4Image} alt="Skill 4" className="rounded-photo" />
+                                                <p>TypeScript</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {/* Add more images and descriptions for Front End */}
+                                </fieldset>
                             </div>
                         </div>
                     </Col>
-                    <Col sm={9}>
-                        <div className="skills-content">
-                            <Row>
-                                <Col sm={3} className="d-flex flex-column align-items-center">
-                                    <img src={skill1Image} alt="Skill 1" className="rounded-photo" />
-                                    <p> React </p>
-                                </Col>
-                                <Col sm={3} className="d-flex flex-column align-items-center">
-                                    <img src={skill2Image} alt="Skill 2" className="rounded-photo" />
-                                    <p> Javascript </p>
-                                </Col>
-                                <Col sm={3} className="d-flex flex-column align-items-center">
-                                    <img src={skill3Image} alt="Skill 3" className="rounded-photo" />
-                                    <p> CSS </p>
-                                </Col>
-                                <Col sm={3} className="d-flex flex-column align-items-center">
-                                    <img src={skill4Image} alt="Skill 4" className="rounded-photo" />
-                                    <p> Type Script </p>
-                                </Col>
-                            </Row>
-                            <Row>
-                                <Col sm={3} className="d-flex flex-column align-items-center">
-                                    <img src={skill5Image} alt="Skill 5" className="rounded-photo" />
-                                    <p> Java </p>
-                                </Col>
-                                <Col sm={3} className="d-flex flex-column align-items-center">
-                                    <img src={skill6Image} alt="Skill 6" className="rounded-photo" />
-                                    <p> Python </p>
-                                </Col>
-                                <Col sm={3} className="d-flex flex-column align-items-center">
-                                    <img src={skill7Image} alt="Skill 7" className="rounded-photo" />
-                                    <p> C </p>
-                                </Col>
-                                <Col sm={3} className="d-flex flex-column align-items-center">
-                                    <img src={skill8Image} alt="Skill 8" className="rounded-photo" />
-                                    <p> C++ </p>
-                                </Col>
-                            </Row>
-                            <Row>
-                                <Col sm={3} className="d-flex flex-column align-items-center">
-                                    <img src={skill9Image} alt="Skill 9" className="rounded-photo" />
-                                    <p> Linux </p>
-                                </Col>
-                                <Col sm={3} className="d-flex flex-column align-items-center">
-                                    <img src={skill10Image} alt="Skill 10" className="rounded-photo" />
-                                    <p> Git </p>
-                                </Col>
-                                <Col sm={3} className="d-flex flex-column align-items-center">
-                                    <img src={skill11Image} alt="Skill 11" className="rounded-photo" />
-                                    <p> Figma </p>
-                                </Col>
-                                <Col sm={3} className="d-flex flex-column align-items-center">
-                                    <img src={skill12Image} alt="Skill 12" className="rounded-photo" />
-                                    <p> Unity </p>
-                                </Col>
-                            </Row>
-                            {/* Add more rows with images and descriptions */}
+                    <Col>
+                        <div className="skills-sidebar">
+                            <div className="sidebar-item">
+                                <fieldset>
+                                    <legend>Back End</legend>
+                                    <div className="d-flex flex-column align-items-center">
+                                        <div className="d-flex">
+                                            <div>
+                                                <img src={skill5Image} alt="Skill 5" className="rounded-photo" />
+                                                <p>Java</p>
+                                            </div>
+                                            <div>
+                                                <img src={skill6Image} alt="Skill 6" className="rounded-photo" />
+                                                <p>Python</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="d-flex flex-column align-items-center">
+                                        <div className="d-flex">
+                                            <div>
+                                                <img src={skill7Image} alt="Skill 7" className="rounded-photo" />
+                                                <p>C</p>
+                                            </div>
+                                            <div>
+                                                <img src={skill8Image} alt="Skill 8" className="rounded-photo" />
+                                                <p>C++</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {/* Add more images and descriptions for Back End */}
+                                </fieldset>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col>
+                        <div className="skills-sidebar">
+                            <div className="sidebar-item">
+                                <fieldset>
+                                    <legend>Developer Tools</legend>
+                                    <div className="d-flex flex-column align-items-center">
+                                        <div className="d-flex">
+                                            <div>
+                                                <img src={skill9Image} alt="Skill 9" className="rounded-photo" />
+                                                <p>Linux</p>
+                                            </div>
+                                            <div>
+                                                <img src={skill10Image} alt="Skill 10" className="rounded-photo" />
+                                                <p>Git</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="d-flex flex-column align-items-center">
+                                        <div className="d-flex">
+                                            <div>
+                                                <img src={skill11Image} alt="Skill 11" className="rounded-photo" />
+                                                <p>Figma</p>
+                                            </div>
+                                            <div>
+                                                <img src={skill12Image} alt="Skill 12" className="rounded-photo" />
+                                                <p>Unity</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {/* Add more images and descriptions for Developer Tools */}
+                                </fieldset>
+                            </div>
                         </div>
                     </Col>
                 </Row>
