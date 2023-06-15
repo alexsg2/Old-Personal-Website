@@ -1,0 +1,259 @@
+.welcome-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: white;
+  color: #000000;
+  z-index: 1;
+}
+
+.welcome-content {
+  text-align: center;
+  color: #000000;
+}
+
+.name-highlight,
+.title-highlight,
+.institution-highlight {
+  color: green;
+}
+
+.subheading {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.welcome-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+
+.btn-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #517664;
+  border: none;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.btn-circle:hover {
+  background-color: #238636;
+}
+
+.about-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #517664;
+  color: white;
+  z-index: 1;
+}
+
+.see-more-button {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 1rem 2rem;
+  margin-bottom: 4rem;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.see-more-button:hover {
+  background-color: white;
+}
+
+.about-content {
+  text-align: left;
+  padding-right: 5%;
+  margin-top: 10vh;
+}
+
+.profile-picture {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  border: 4px solid white;
+  overflow: hidden;
+  margin-left: auto;
+}
+
+.profile-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+.white-button {
+  background-color: white;
+  color: black;
+  border: none;
+  margin-top: 20px;
+}
+
+.black-button:hover {
+  background-color: lightgray;
+  color: black;
+}
+
+.project-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #fff;
+  color: #000000;
+  z-index: 1;
+  padding: 2rem 0;
+}
+
+.project-section h1 {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-section .row {
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.project-section .col-md-3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.project-section .col-md-3:nth-child(3n+2) {
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.rounded-card {
+  border: none;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  margin-bottom: 1.5rem;
+  width: 300px;
+  height: 370px;
+  background-color: #517664;
+  color: white;
+}
+
+.rounded-card:hover {
+  background-color: green;
+}
+
+.contact-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: white;
+  color: #000000;
+  z-index: 1;
+}
+
+.contact-content {
+  text-align: center;
+  color: #000000;
+  margin-bottom: 2rem;
+}
+
+.contact-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.btn-rectangle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 30px;
+  background-color: #517664;
+  border: none;
+  color: #fff;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 150px;
+}
+
+.btn-rectangle:hover {
+  background-color: green;
+}
+
+.btn-icon {
+  margin-left: 5px;
+}
+
+.skill-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #517664;
+  color: white;
+  z-index: 1;
+  padding-top: 2rem;
+}
+
+.skill-section h1 {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+}
+
+.skills-sidebar {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.sidebar-item {
+  margin-top: 3rem;
+  margin-bottom: 10.5rem;
+}
+
+.rounded-photo {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  background-color: white;
+}

@@ -1,0 +1,18 @@
+.navbar {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: rgba(255, 255, 255, 0) !important; /* Adjust the alpha value (0.5 for more transparency) */
+  backdrop-filter: blur(3px) !important;
+}
+
+.nav-link {
+  color: black !important;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: black !important;
+}
